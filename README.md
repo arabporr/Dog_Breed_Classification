@@ -29,6 +29,6 @@ In the table below, you will find our results for each of the model architecture
 For objective 1, notice that both VGG and AlexNet correctly identify images of "dogs" and "not-a-dog" 100% of the time.
 For objective 2, VGG provides the best solution because it classifies the correct breed of dog over 90% of the time.
 
-![Results Table]()
+![Results Table](https://github.com/arabporr/Dog_Breed_Classification/blob/f7e9e0a5d32215eadf1c570afc822f2dc31e13ae/Results_Table.PNG)
 
 Given our results, the "best" model architecture is VGG. It outperformed both of the other architectures when considering both objectives 1 and 2. You will notice that ResNet did classify dog breeds better than AlexNet, but only VGG and AlexNet were able to classify "dogs" and "not-a-dog" at 100% accuracy. The model VGG was the one that was able to classify "dogs" and "not-a-dog" with 100% accuracy and had the best performance regarding breed classification with 93.3% accuracy.
